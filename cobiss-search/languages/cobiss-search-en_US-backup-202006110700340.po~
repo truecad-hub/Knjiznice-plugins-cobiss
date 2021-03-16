@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Knjižnice: Gradnik COBISS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-11 06:55+0000\n"
+"PO-Revision-Date: 2020-06-11 06:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: cobiss-search.php:20
+msgid "COBISS iskalnik"
+msgstr ""
+
+#: cobiss-search.php:20
+msgid "Iskanje po COBISS-u"
+msgstr ""
+
+#: cobiss-search.php:34
+msgid "iskanje po cobiss"
+msgstr "search the cobiss catalogue"
+
+#. Name of the plugin
+msgid "Knjižnice: Gradnik COBISS"
+msgstr ""
+
+#. Description of the plugin
+msgid "Gradnik za iskanje po sistemu COBISS."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.knjiznice.si"
+msgstr ""
+
+#. Author of the plugin
+msgid "TrueCAD d.o.o."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.truecad.si/"
+msgstr ""
