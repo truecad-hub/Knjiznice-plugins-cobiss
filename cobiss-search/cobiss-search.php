@@ -32,7 +32,7 @@ class knjiznice_widget_cobisssearch extends WP_Widget {
 			<input type="hidden" name="db" value="<?php echo $instance['cobissakronim']; ?>" />
 			<input type="hidden" name="mat" value="allmaterials" />
 			<input type="text" name="q" placeholder="<?php echo __('iskanje po cobiss', 'cobiss-search'); ?>" />
-			<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+			<button type="submit" aria-label="najdi"><i class="fa fa-search" aria-hidden="true"></i></button>
 		</form>		
 		<?php
 		echo $args['after_widget'];
