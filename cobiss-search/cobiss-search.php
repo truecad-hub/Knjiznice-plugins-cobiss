@@ -32,7 +32,7 @@ class knjiznice_widget_cobisssearch extends WP_Widget {
 		if ( ! empty( $title ) )
 		echo $args['before_title'] . $title . $args['after_title'];
 		?>
-		<form action="https://plus.cobiss.net/cobiss/si/sl/bib/search/simple" method="GET" target="_blank">
+		<form action="https://plus.cobiss.net/cobiss/si/sl/bib/search" method="GET" target="_blank">
 			<input type="hidden" name="db" value="<?php echo $instance['cobissakronim']; ?>" />
 			<input type="hidden" name="mat" value="allmaterials" />
 			<input type="text" name="q" placeholder="<?php echo __('iskanje po cobiss', 'cobiss-search'); ?>" />
