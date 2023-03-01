@@ -3,7 +3,7 @@
 * Plugin Name: Knjižnice: Gradnik COBISS
 * Plugin URI: https://www.knjiznice.si
 * Description: Gradnik za iskanje po sistemu COBISS.
-* Version: 1.3.0
+* Version: 1.3.1
 * Author: TrueCAD d.o.o.
 * Author URI: https://www.truecad.si/
 **/
