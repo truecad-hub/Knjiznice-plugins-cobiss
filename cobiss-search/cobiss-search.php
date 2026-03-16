@@ -3,7 +3,7 @@
 * Plugin Name: Knjižnice: Gradnik COBISS
 * Plugin URI: https://www.knjiznice.si
 * Description: Gradnik za iskanje po sistemu COBISS.
-* Version: 1.3.1
+* Version: 1.4.0
 * Author: TrueCAD d.o.o.
 * Author URI: https://www.truecad.si/
 **/
@@ -32,9 +32,8 @@ class knjiznice_widget_cobisssearch extends WP_Widget {
 		if ( ! empty( $title ) )
 		echo $args['before_title'] . $title . $args['after_title'];
 		?>
-		<form action="https://plus.cobiss.net/cobiss/si/sl/bib/search" method="GET" target="_blank">
-			<input type="hidden" name="db" value="<?php echo $instance['cobissakronim']; ?>" />
-			<input type="hidden" name="mat" value="allmaterials" />
+		<form action="https://plus.cobiss.net/cobiss/si/sl/search/cobib" method="GET" target="_blank">
+			<input type="hidden" name="lib" value="<?php echo $instance['cobissakronim']; ?>" />
 			<input type="text" name="q" placeholder="<?php echo __('iskanje po cobiss', 'cobiss-search'); ?>" />
 			<button type="submit" aria-label="najdi"><i class="fa fa-search" aria-hidden="true"></i></button>
 		</form>		
